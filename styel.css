@@ -1,0 +1,392 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    width: 100%;
+
+}
+nav{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    padding: 30px;
+    justify-content: space-between;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    font-size: 60px;
+    padding-right: 400px;
+
+}
+nav img{
+    width: 600px;
+    height: 450px;
+    margin-left: 50px;
+    padding-bottom: 250px;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./gourav/pad1.jpg.thumb.webp);
+    background-size: cover;
+
+}
+.text-section{
+    width: 60%;
+    height: 900px;
+    color: white;
+    padding: 200px;
+    
+}
+.text-section p:first-child{
+    font-size: 70px;
+    border-bottom: 1px solid white;
+}
+.text-section h1{
+    font-size: 190px;
+    margin-top: 100px;
+}
+#second-p{
+    font-size: 105px;
+    margin-top: 1200px;
+} 
+.text-section button{
+    width: 1100px;
+    height: 120px;
+    font-size: 60px;
+    
+}
+.horizon-section{
+    width: 100%;
+    height: 2200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+
+}
+.horizon-section .img{
+    width: 70%;
+}
+.horizon-section .text{
+    width: 30%;
+}
+.horizon-section .img img{
+    width: 3500px;
+    height: 2000px;
+    margin-left: 150px;
+}
+.horizon-section .text{
+    padding: 70px;
+    margin-left: 180px; 
+}
+.text p:first-child{
+    font-size: 80px;
+
+}
+.text h1{
+    font-size: 180px;
+    margin-bottom: 1200px;
+}
+#horizon-p{
+    font-size: 60px;
+}
+.text span button{
+    width: 700px;
+    height: 125px;
+    margin-top: 50px;
+    font-size: 60px;
+
+}
+.text span button:first-child{
+    background-color: black;
+    color: white;
+    border: none;
+} 
+.horizon-section1{
+    width: 100%;
+    height: 2900px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+.gourav {
+     width: 45%;
+     
+    display: flex; 
+    background-color: rgb(206, 215, 219);
+    
+    
+    
+    
+
+}
+
+.gourav .img img{
+     width: 1200px;
+     margin-top: 800px;
+}
+.gourav p{
+    font-size: 70px;
+}
+.gourav h1{
+    margin-top: 500px;
+} 
+.gourav span button{
+    width: 400px;
+    font-size: 50px;
+    
+
+}
+.deepak {
+    width: 46%;
+    display: flex;
+    background-color: rgb(206, 215, 219);
+
+}
+.deepak .img img{
+    width: 1200px;
+    margin-top: 800px;
+
+}
+.deepak p{
+    font-size: 70px;
+
+}
+.deepak h1{
+    margin-top: 500px;
+
+}
+.deepak span button{
+     width: 400px;
+}
+.horizon-section2{
+    width: 100%;
+    height: 800px; 
+    
+    
+
+}  
+.rahul{
+    display: flex; 
+    margin-bottom: 500px;
+    width: 100%;
+    justify-content: space-around;
+}
+hr{
+    width: 90%;
+    margin-left: 200px;
+}  
+.horizon-section2 p{
+    font-size: 100px;
+    margin-left: 220px;
+} 
+.horizon-section2 ul{
+    display: flex; 
+    font-size: 80px;
+    width: 2700px;
+    justify-content: space-between;
+    height: 200px;
+    margin-left: 350px;
+    list-style: none;
+    margin-top: 200px;
+
+    
+}  
+.rahul h1{
+    font-size: 100px;
+    margin-left: 300px;
+    
+}  
+.rahul img{ 
+      width: 1400px;
+
+
+}
+.rahul p{
+    font-size: 60px;
+    margin-left: 300px;
+}
+.rahul button{
+    width: 650px;
+    height: 90px;
+    font-size: 50px;
+    margin-left: 350px;
+    border-radius: 12px;
+    margin-top: 100px;
+    
+    
+}
+.rahul button:hover{
+    background-color: black;
+    color: white;
+}
+i:hover{
+    background-color:white;
+    color: black;
+
+}
+.rahul a{
+    font-size: 30px;
+}
+.horizon-section3{
+    width: 100%;
+    height: 4000px;
+    background-color: rgb(15, 15, 15);
+}
+#hd1{
+    color: white;
+    font-size: 180px;
+    margin-left: 400px;
+}
+.horizon-section3 p{
+    font-size: 80px;
+    color: white;
+    padding-top: 300px;
+    padding-left: 400px;
+}
+.horizon-section3 hr{
+    font-size: 0.5px solid rgb(201, 189, 189);
+}
+.room-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.room-section .text{
+    color: white;
+}
+.room-section .text p{
+    color: white;
+}
+.room-section h3{
+     font-size: 65px;
+     margin-top: 100px;
+}
+.computer-section img{
+    width: 2800px;
+    height: 2200px;
+}
+.room-section h4{
+    font-size: 50px;
+    padding-bottom: 100px;
+}
+.room-section a{
+    color: white;
+    font-size: 50px;
+    padding-bottom: 3000px;
+}
+.horizon-section4{
+    width: 100%;
+    height: 4000px;
+    background-color: rgb(15, 15, 15);
+}
+.horizon-section4 p{
+    font-size: 80px;
+    color: white;
+    padding-top: 300px;
+    padding-left: 400px;
+}
+.never{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 00px;
+
+
+}
+.horizon-section4 img{
+    width: 2600px;
+    margin-top: 300px;
+    height: 1400px;
+    padding-left: 00px;
+
+}
+.horizon-section4 h1{
+    font-size: 200px;
+    margin-right: 00px;
+    color: white;
+    margin-left: 200px;
+}
+.write h4{
+    color: white;
+    font-size: 60px;
+    margin-top: 900px;
+    margin-left: 500px;
+
+}
+.write a{
+    font-size: 45px;
+    color: white;
+    margin-left: 500px;
+    margin-top: 300px;
+}
+.horizon-section5{
+    width: 100%;
+    height: 3000px;
+    background-color: rgb(192, 58, 58);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    
+    
+}
+.inner-container{
+    width: 90%;
+    height: 90vh;
+    background-color: rgb(5, 5, 5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nature h1{
+    font-size: 65px;
+    color: rgb(138, 125, 125);
+    margin-top: 75px;
+    margin-left: 50px;
+
+    
+}
+.nature h2{
+    font-size: 100px;
+    color: white;
+     margin-bottom: 250px;
+     margin-left: 50px;
+
+}
+.nature{
+    width: 1000px;
+    background-color: rgb(22, 19, 19);
+    height: 1300px;
+    margin-left: 50px;
+
+}
+.nature h3{
+    font-size: 45px;
+    color: white;
+    margin-top: 600px;
+    margin-left: 50px;
+}
+.nature a{
+    font-size: 40px;
+    margin-left: 50px;
+    color: white;
+    padding-top: 100px;
+}
+    
+
